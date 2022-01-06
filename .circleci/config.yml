@@ -40,7 +40,7 @@ jobs:
     steps:
       - run: apk add --update curl
       - run:
-          name: smoke test
+          name: smoke_test
           command: |
                   URL="http:/ec2-18-236-78-54.us-west-2.compute.amazonaws.com/:3000"
              # Test if website exists
